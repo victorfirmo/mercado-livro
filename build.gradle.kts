@@ -26,6 +26,7 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 
 	implementation("com.mysql:mysql-connector-j:8.3.0")
+	implementation("org.flywaydb:flyway-mysql:9.22.3")
 
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
